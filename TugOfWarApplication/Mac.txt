@@ -1,0 +1,2 @@
+http://www.centerkey.com/mac/java/
+http://developer.apple.com/documentation/Java/Conceptual/Java14Development/03-JavaDeployment/JavaDeployment.html

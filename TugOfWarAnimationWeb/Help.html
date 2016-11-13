@@ -1,0 +1,145 @@
+<!--=======================================================================================================-->
+<html>
+<head>
+<head><title> Melanie J.I. M&uuml;ller - Tug-of-war animation help</title></head>
+
+<!--=======================================================================================================-->
+<!--=======================================================================================================-->
+<!--#include virtual="../../Index/Background.html" -->
+<!--#include virtual="../../Index/Navigation.html" -->
+
+<body id="top">
+<!--=======================================================================================================-->
+<!-- TITLE -->
+<h1>   &nbsp;Help for the tug-of-war simulation </h1>
+<hr> 
+<!--=======================================================================================================-->
+&nbsp;
+<a href="#WorumGehts">What's this about?</a> | 
+<a href="#WasIstDargestellt">What do I see?</a> | 
+<a href="#WasTun"> What can I do?</a> |
+<a href="#Trouble"> Troubleshooting</a> |
+<a href="TugOfWarAnimation.html">Back to animation</a>
+<!--=======================================================================================================-->
+
+
+<table align="center" valign="top" width=100% cellpadding=15 cellspacing=0 >
+<tr valign ="top">
+
+<td >
+
+<tr><td>
+
+<h3 ><a name="WorumGehts">What's this about?</a></h3>
+
+<UL><p align="justify"> 
+<LI>Please read the <a href="../TugOfWar/TugOfWarProject.html">explanations</a>.
+</p></UL>
+
+</td></tr>
+
+<tr><td>
+
+<h3 > <a name="WasIstDargestellt">What do I see?</a></h3>
+
+<img src="AnimationScreenshotW400.gif" width=400 align="right" hspace=20 alt="Tug-of-war animation screen shot"> 
+
+<UL>
+<p align="justify"> 
+<LI> <p align="justify">
+In the upper region you see in large magnification the blue cellular cargo, which is transported by a team of red plus motors and and a team of green minus motors. The motors can either be bound to or unbound from the gray filament Only bound motors can actively pull the cargo. Red motors pull to the right, green motors to the left. The winning motor team determines the direction of the cargo, which is indicated by the red or green arrow. The arrow length is proportional to the cargo velocity. The resulting motion of the cargo can however only be seen in the middle region. 
+</p>
+<LI> <p align="justify"> In the middle region you see how the blue cargo moves along the gray filament. This is approximately how the motion looks like in a microscope. The total filament length is 10 &mu;m, which is of the order of magnitude of the diameter of a cell. Periodic boundary conditions apply.
+</p>
+<LI> <p align="justify"> In the lower region you can play around with the simulation parameters. The white text panel displays information messages about what you can do or have done. Below is a row of control buttons. At the bottom is a list of simulation parameters which you can change. Please read below to know more about this.
+<br><br>
+<a href="TugOfWarAnimation.html">Back to animation</a>
+
+</p>
+</UL>
+
+</td></tr>
+<tr><td >
+
+
+<h3 ><a name="WasTun"> What can I do?</a> </h3>
+
+<UL>
+
+<LI><p align="justify">
+<b> Run / Pause:</b> When you press the Run/Pause button, the simulation runs or pauses.
+</p>
+
+<LI><p align="justify">
+<b> Reset:</b> When you press the Reset button, the parameters of the simulation are set back to standard values. These correspond to a tug-of-war of 4 plus and 4 minus motors with parameters as measured for the motor kinesin-1.
+</p>
+
+<LI><p align="justify">
+<b> Slow motion:</b> With the pop-down menu after the phrase 'Time slowed down by factor of' you can see the simulation in slow motion. If the factor is equal to 1 and your computer is not busy otherwise or in energy save mode, simulation time is approximately equal to real time. If the factor equals 10 or 100, the simulation is slowed down by a factor of 10 or 100, respectively.
+</p>
+
+
+<LI><p align="justify">
+<b> Change the motor numbers and parameters = </b> In the table you can change the motor parameters. Your changes become valid once you press enter in one of the number input fields. The meaning of the parameters is as follows:
+ </p> 
+	<UL>
+	<LI>  N<sub>+</sub> =  number of red plus motors
+	<LI>  N<sub>-</sub> =  number of green minus motors
+	<LI>  F<sub>s+</sub> =  stall force of the red motors = force with which they can pull
+	<LI>  F<sub>d+</sub> =  detachment force of the red motors = force which they can withstand before dropping off the filament
+	<LI>  &epsilon;<sub>0+</sub> =  unbinding rate of the red motors = rate with which they unbind even when there is no load force
+	<LI>  &pi;<sub>0+</sub> =  binding rate of the red motors 
+	<LI>  v<sub>F+</sub> =  forward velocity of the red motors = motor velocity when there is no load force
+	<LI>  v<sub>B+</sub> =  backward velocity of the red motors = motor velocity parameter when the motors are pulled backwards
+	<LI>  F<sub>s-</sub>, F<sub>d-</sub>, &epsilon;<sub>0-</sub>, &pi;<sub>0-</sub>, v<sub>F-</sub>, v<sub>B-</sub> =  properties of the green minus motors, just as for the plus motors
+	</UL>
+<p>
+If you can't remember the parameter meanings, just stop with the mouse over the symbol to make the same pop up.
+</p>
+<p>
+The most interesting parameters to vary are the motor numbers N<sub>+</sub> and N<sub>-</sub>, and the motor forces  F<sub>s+</sub>,  F<sub>d+</sub>,  F<sub>s-</sub> and  F<sub>d-</sub>. Look at what happens when the stall forces F<sub>s+</sub>  and F<sub>s-</sub> are larger or smaller than the detachment forces F<sub>d+</sub>  and F<sub>d-</sub>. When can you see the unbinding cascade described in the <a href="../TugOfWar/TugOfWarProject.html">explanations</a>? Have fun!
+</p>
+
+<a href="TugOfWarAnimation.html">Back to animation</a>
+
+</UL>
+
+</td></tr>
+<tr><td >
+
+
+<h3 ><a name="Trouble">Troubleshooting</a> </h3>
+
+<UL>
+
+<LI><p align="justify"> <b>I can't view the animation</b>
+<UL>
+	<LI>Install or update your java at <a href="http://www.java.com">www.java.com</a>. The animation applet needs Java 1.5 or higher. 
+	<LI>Enable Java in your Browser. 
+	<LI>Try a different Browser if possible. 
+</UL>
+
+<LI><p align="justify"> <b>I can see only part of the animation.</b>
+<UL>
+	<LI>Make the Browser window as large as your screen. The <b>reload</b> the page.
+</UL>
+
+<LI><p align="justify"> <b>I can't change the parameter values.</b>.
+<UL>
+	<LI>Be sure to press Enter after parameter input.
+</UL>
+
+</p>
+
+<a href="TugOfWarAnimation.html">Back to animation</a>
+
+</UL>
+
+</td>
+</tr>
+
+
+</table>
+
+</body>
+</html>
