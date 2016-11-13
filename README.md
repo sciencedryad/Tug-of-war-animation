@@ -9,6 +9,11 @@ Screenshot:
 ![Screenshot](https://github.com/sciencedryad/Tug-of-war-animation/blob/master/TugOfWarAppletScreenshot.jpg "Screenshot")
 
 
+## Folders
+
+- TugOfWarApplication: Jar file, with code
+- TugOfWarAnimationWeb: Java browser applet, with code
+
 
 ## References
 
