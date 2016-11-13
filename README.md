@@ -5,6 +5,10 @@ Animation of cargo transport by two teams of molecular motors engaged in a tug-o
 The applet (without code) can also be downloaded from the data appendix of Ref [2]:
 http://www.cell.com/cms/attachment/2024918557/2044648917/mmc2.zip
 
+Screenshot:
+![Screenshot](https://github.com/sciencedryad/Tug-of-war-animation/blob/master/TugOfWarAppletScreenshot.jpg "Screenshot")
+
+
 
 ## References
 
