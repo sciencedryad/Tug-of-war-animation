@@ -1,6 +1,6 @@
 # Tug-of-war-animation
 
-Animation of cargo transport by two teams of molecular motors engaged in a tug-of-war. 
+Animation of cargo transport by two teams of molecular motors engaged in a tug-of-war. Java code for applet/html.
 
 The applet (without code) can also be downloaded from the data appendix of Ref [2]:
 http://www.cell.com/cms/attachment/2024918557/2044648917/mmc2.zip
